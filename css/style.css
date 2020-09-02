@@ -1,0 +1,135 @@
+body{
+    background: url(../img/background.png) no-repeat;
+    color:#fff;
+    font-family: "Roboto";
+}
+
+h1, h2, h3, h4, p {
+    margin:0;
+    padding: 0;
+    font-weight: normal;
+    position: relative;
+    font-size: inherit;
+}
+
+.header-container{
+    display: block;
+    background: url(../img/roque-logo.png) no-repeat;
+    background-size: 250px;
+    width: 80%;   
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left:18%;
+}
+
+.menu-bar ul{
+    margin-top: 20%;
+    display: none;
+}
+
+.main-container h1{
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu-bar ul li{
+    display:inline;
+    float:right;
+    padding:10px;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.paso-1{
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.paso-1 .dropdown .itinerario{
+	background-color: #393e46;
+    width: 85%;
+    color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 0;
+    padding: 12px 16px;
+    margin:5px;
+    margin-left: 30px;
+    position: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.paso-1 .pasajero{
+    display:none;
+}
+
+.paso-1 .button{
+    background-color: #f3c623;
+    width: 85%;
+    color: #393e46;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 0;
+    padding: 12px 16px;
+    margin:5px;
+    margin-left: 30px;
+    position: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+   /*.menu-bar ul{
+        display: initial;
+    }
+
+    .header-container{
+        left:5%;
+    }
+
+    .paso-1 .dropdown .itinerario{
+        width:25%;
+        margin-left:5%;
+        margin:0px;
+    }
+
+    .paso-1 .button{
+        width: 25%;
+        margin-left: 34%;
+    } */
+    
+}
+
+
+@media only screen and (min-width: 720px) {
+    .menu-bar ul{
+        display: initial;
+    }
+
+    .header-container{
+        left:5%;
+    }
+
+    .paso-1 .dropdown .itinerario{
+        width:25%;
+        margin-left:5%;
+        margin:0px;
+    }
+
+    .paso-1 .button{
+        width: 25%;
+        margin-left: 34%;
+    }
+    
+}
