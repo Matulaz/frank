@@ -4,7 +4,7 @@ function login() {
 
     if (usuario == "admin" && pass == "admin"){
         //alert("Has iniciado sesion");
-        window.location = "index.html";
+        window.location = "home.html";
     }
     else{
         throw new Error('¡Upsssssssss!')
