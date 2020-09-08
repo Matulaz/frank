@@ -17,7 +17,7 @@ h1, h2, h3, h4, p {
     background-size: 250px;
     width: 80%;   
     height: 80px;
-    position: absolute;
+    position: relative;
     top: 0;
     left:18%;
 }
@@ -47,39 +47,21 @@ a{
 .paso-1{
     display: block;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .paso-1 .dropdown .itinerario{
 	background-color: #393e46;
-    width: 85%;
     color: #fff;
 	cursor: pointer;
 	border-radius: 5px;
 	border: 0;
-    padding: 12px 16px;
-    margin:5px;
-    margin-left: 30px;
-    position: center;
-    align-items: center;
-    font-size: 15px;
-}
-
-.paso-1 .dropdown .itinerario .inicio {
-    background-color: #393e46;
-    margin-right: 30px;
     width: 85%;
-    cursor: pointer;
-	border-radius: 5px;
-	border: 0;
     padding: 12px 16px;
-    margin:5px;
-    margin-left: 30px;
-    position: center;
+    margin:10px;
+    position: relative;
     align-items: center;
-    font-size: 15px;
-    margin-top: 30px;
-    
+    font-size: 16px;
 }
 
 .paso-1 .pasajero{
@@ -88,17 +70,16 @@ a{
 
 .paso-1 .button{
     background-color: #f3c623;
-    width: 85%;
     color: #393e46;
 	cursor: pointer;
 	border-radius: 5px;
 	border: 0;
-    padding: 12px 16px;
-    margin:5px;
-    margin-left: 30px;
-    position: center;
+    width:94%;
+    padding: 12px;
+    position: relative;
     align-items: center;
-    font-size: 15px;
+    font-size: 16px;
+    margin-left:10px;
     margin-top: 30px;
 }
 
