@@ -1,0 +1,9 @@
+(function(){
+    $("#avanzar").click(function(){
+        $(".dropdown").show(500)
+        $("#aplicar").show(500)
+        $("#ver").hide(500);
+    }
+    );
+}
+)();

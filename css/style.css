@@ -36,7 +36,6 @@ h1, h2, h3, h4, p {
 
 .menu-bar ul li{
     display:inline;
-    float: right;
     padding:10px;
 }
 
@@ -46,7 +45,6 @@ a{
 }
 
 .paso-1{
-    display: block;
     width: 100%;
     margin-top: 100px;
 }
@@ -72,14 +70,9 @@ a{
     
 }
 
-.paso-1 .pasajero{
-    display:none;
-}
-
-.paso-1 .button{
-    background-color: #f3c623;
+button.button{
     width: 85%;
-    color: #393e46;
+    color: black;
 	cursor: pointer;
 	border-radius: 5px;
 	border: 0;
@@ -89,12 +82,40 @@ a{
     position: center;
     align-items: center;
     font-size: 16px;
-    margin-top: 30px;
+}
+
+button.button#avanzar{
+    background: #f0a500;
+}
+button.button#aplicar{
+    background: #f0a500;
+}
+
+button.button#retroceder{
+    background: red;
+}
+
+button.button#ver{
+    background: #07689f;
+}
+
+
+.dropdown .itinerario:active{
+    background:#cf1b1b;
+}
+
+.dropdown .itinerario .option{
+    font-size: 12px;
 }
 
 
 
 
+
+
+
+
+/*
 @media only screen and (min-width: 1024px) {
    /*.menu-bar ul{
         display: initial;
@@ -113,12 +134,12 @@ a{
     .paso-1 .button{
         width: 25%;
         margin-left: 34%;
-    } */
+    } 
     
 }
+*/
 
-
-@media only screen and (min-width: 720px) {
+/*@media only screen and (min-width: 720px) {
     .menu-bar ul{
         display: initial;
     }
@@ -137,5 +158,6 @@ a{
         width: 25%;
         margin-left: 34%;
     }
+
     
-}
+}*/

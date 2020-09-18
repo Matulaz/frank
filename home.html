@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Make it Snow</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link  rel="icon"   href="./img/favicon.png" type="image/png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link  rel="icon"   href="./img/favicon.png" type="image/png" />
+  <script src="./js/jQuery.js"></script> 
 </head>
 <body>
   <div class="main-container">
@@ -21,32 +22,66 @@
           </span>
       </span>
     
+      <!--Home -->
       <div class="paso-1">
-
-          <span class="dropdown">
-            <select class="itinerario">
-              <option>Origen</option>
-            </select>
-            <select class="itinerario">
-              <option>Destino</option>
-            </select>
-            <select class="itinerario">
-                <option>Cantidad de Pasajeros</option>
-              </select>
-          </span>
-
-          <span class="pasajero">
-                    <p>Adulto</p>
-                    <p>12 Años en adelante</p>
-          </span>
-
-          <span>
-              <button class="button">Aplicar</button>
-          </span>
+      
+      <div>
+        <button class="button" id="avanzar">Nueva Cotización</button>
       </div>
+      <div>
+        <button class="button" id="ver">Ver cotizaciones guardadas</button>
+      </div>
+      
+      
+      
+      <!--Origen / Destino / Cant de Pasajeros -->
+      
+       <span class="dropdown" style="display:none">
+            <label value="Origen">
+              <select class="itinerario" value="Origen">
+                <option class="option" value="0">Origen</option>
+              <option class="option">Córdoba, Córdoba</option>
+              <option class="option">CABA, Buenos Aires</option>
+              <option class="option">Rosario, Santa Fé</option>                 
+            </select>
+          </label>
+            <select class="itinerario">
+              <option class="option">Destino</option>
+            </select>
+            <select class="itinerario">
+                <option class="option">Cantidad de Pasajeros</option>
+              </select>
+        </span>
+          
+        <span class="pasajero" id="pasajero" style="display:none">
+            <p>Adulto</p>
+            <p>12 Años en adelante</p>
+        </span>
+
+
+          <div>
+            <button class="button" id="aplicar" style="display:none">Aplicar</button>
+          </div>
+          
+          <div>
+            <button class="button" id="retroceder">Desconectarme</button>
+          </div>
+
+        </div>
+        
+        
+        
+        
+        
+
+
+
+
+
+
   </div>
 
 
-  
+  <script src="./js/main.js"></script>
 </body>
 </html>
